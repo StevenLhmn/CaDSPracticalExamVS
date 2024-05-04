@@ -1,0 +1,144 @@
+<mxfile host="Electron" modified="2024-05-04T11:33:43.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="UtYVtLl38SWMCIl-h--v" version="24.2.5" type="device">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="1593" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-48" value="GUI Adapter" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-1010" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-1" value="Schichtenmodell" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;width=110;height=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-640" width="860" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-2" value="Layer 1&lt;div&gt;Application&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-610" width="780" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-3" value="Layer 1&lt;div&gt;Middleware&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-220" width="740" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-4" value="Layer 1&lt;div&gt;HW&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-120" width="740" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;strokeColor=#666666;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="-944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;ICaDSRoboticArm&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ setLeftRightPercentageTo(&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&amp;nbsp;+ setBackForthPercentageTo(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&amp;nbsp;+ setUpDownPercentageTo(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&amp;nbsp;+ setOpenClosePercentageTo(int):&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&lt;p style=&quot;text-wrap: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ getLeftRightPercentage(&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ getBackForthPercentage():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getUpDownPercentage():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getOpenClosePercentage():&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="-999" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-7" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-360" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;strokeColor=#666666;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;CaDSRoboticArmReal&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ setLeftRightPercentageTo(&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&amp;nbsp;+ setBackForthPercentageTo(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&amp;nbsp;+ setUpDownPercentageTo(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&amp;nbsp;+ setOpenClosePercentageTo(int):&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: wrap;&quot;&gt;&lt;p style=&quot;text-wrap: nowrap; margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ getLeftRightPercentage(&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;+ getBackForthPercentage(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getUpDownPercentage(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getOpenClosePercentage(int):&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-1000" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-10" target="ZWjK-Hx5LrU1xAb82gXJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b&gt;CaDSRoboticArmAdapter&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ getPosition(): int&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;+ setPosition(int): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-984" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circle;endFill=0;strokeColor=#666666;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="-944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b&gt;IHAL&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap;&quot;&gt;+ read(Servo): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;&amp;nbsp;+ write(Servo, int): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="-984" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;strokeColor=#666666;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;CaDSRoboticArmSim&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-790" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="-495" as="sourcePoint" />
+            <mxPoint x="580" y="-495" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="-495" />
+              <mxPoint x="560" y="-495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circle;endFill=0;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="-959" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="-959" />
+              <mxPoint x="370" y="-958" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b&gt;GUIAdapter&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap;&quot;&gt;+ getRequestedPosition(Servo): int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-wrap: wrap;&quot;&gt;&amp;nbsp;+ refreshPosition(Servo, int): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="-999" width="210" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-33" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b&gt;CaDSRoboticControlGUI&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;text-wrap: wrap; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="-870" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-35" value="&lt;b&gt;HAL&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-540" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-36" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="ZWjK-Hx5LrU1xAb82gXJ-35">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circle;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="-495.22" as="targetPoint" />
+            <mxPoint x="610" y="-495.22" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="600" y="-495.22" />
+              <mxPoint x="600" y="-495.22" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309.9999999999999" y="-495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-38" value="App" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-540" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="ZWjK-Hx5LrU1xAb82gXJ-38">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-40" value="&lt;b&gt;GUI&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-540" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-41" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="ZWjK-Hx5LrU1xAb82gXJ-40">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=circle;endFill=0;" edge="1" parent="1" source="ZWjK-Hx5LrU1xAb82gXJ-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="-495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-44" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-46" value="" style="icon;html=1;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="625" y="-522.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWjK-Hx5LrU1xAb82gXJ-47" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-525" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
